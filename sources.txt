@@ -1,0 +1,4 @@
+source for calendar: https://www.formula1.com/en/racing/2025
+source for database with circuits: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?resource=download
+source for haversine formula: https://en.wikipedia.org/wiki/Haversine_formula
+source for brute force approach to TSP: https://www.geeksforgeeks.org/dsa/traveling-salesman-problem-tsp-implementation/
