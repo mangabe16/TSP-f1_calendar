@@ -19,7 +19,7 @@ def get_route_distance(route, circuits):
 #   - start the tour at a given location
 #   - compute the distance of every possible route, pick the one with lowest distance
 # returns a tuple of the best route and its minumum distance
-def brute_force_TSP(circuits, starting_circuit):
+def brute_force(circuits, starting_circuit):
     all_circuits = list(circuits) # getting all the keys from the dictionary
 
     remaining_circuits = all_circuits.copy()
@@ -52,7 +52,7 @@ def brute_force_TSP(circuits, starting_circuit):
 #   - start the tour at a given location
 #   - always move to the next unvisited node until all locations have been visited
 #   - return to starting position
-def nearest_neighbor_TSP(circuits, starting_circuit):
+def nearest_neighbor(circuits, starting_circuit):
     unvisited = set(circuits.keys())
     route = [starting_circuit]
     unvisited.remove(starting_circuit)
